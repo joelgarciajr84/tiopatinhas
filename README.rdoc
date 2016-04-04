@@ -1,10 +1,10 @@
-== Tipo Patinhas ==
+#Tipo Patinhas
+Mínimo ERP em RoR para estudo do Rails
 
+- Contas a Pagar
+- Contas a Receber
+- Cadastro de Clientes
+- Cadastro de Fornecedores
+- Relatorios
 
-## Contas a Pagar
-## Contas a Receber
-## Cadastro de Clientes
-## Cadastro de Fornecedores
-## Relatorios
-
-### Estudo do Rails.
+-Estudo do Rails.
