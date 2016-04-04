@@ -1,12 +1,10 @@
 == Tipo Patinhas ==
 
 
-##Contas a Pagar
-##Contas a Receber
-##Cadastro de Clientes
-##Cadastro de Fornecedores
-##Relatorios
+## Contas a Pagar
+## Contas a Receber
+## Cadastro de Clientes
+## Cadastro de Fornecedores
+## Relatorios
 
-### Estudo do Rails
-
-<tt>rake doc:app</tt>.
+### Estudo do Rails.
