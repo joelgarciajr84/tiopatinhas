@@ -1,19 +1,13 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Clientes</h1>
+<h1>Listagem de Clientes</h1>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th>Nome</th>
-      <th>Cpf</th>
-      <th>Rg</th>
       <th>Estado</th>
       <th>Cidade</th>
-      <th>Bairro</th>
-      <th>Localidade</th>
-      <th>Cep</th>
-      <th>Sexo</th>
       <th>Telefone</th>
       <th>Celular</th>
       <th colspan="3"></th>
@@ -24,14 +18,8 @@
     <% @clientes.each do |cliente| %>
       <tr>
         <td><%= cliente.nome %></td>
-        <td><%= cliente.cpf %></td>
-        <td><%= cliente.rg %></td>
         <td><%= cliente.estado %></td>
         <td><%= cliente.cidade %></td>
-        <td><%= cliente.bairro %></td>
-        <td><%= cliente.localidade %></td>
-        <td><%= cliente.cep %></td>
-        <td><%= cliente.sexo %></td>
         <td><%= cliente.telefone %></td>
         <td><%= cliente.celular %></td>
         <td><%= link_to 'Show', cliente %></td>
